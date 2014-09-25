@@ -1,6 +1,6 @@
 <?php
 
-class FacebookPost {
+class PHPFacebookPost {
 
 	private $ok = 1;
 	private $appId = "";
@@ -96,7 +96,6 @@ class FacebookPost {
 	</a>";
 
 		echo "<div style='color:white;position:relative;bottom:30px;left:10px;text-shadow: 0px 0px 6px black;'><strong>$messaggio</strong></div>";
-
 		echo "</div>";
 	}
 
