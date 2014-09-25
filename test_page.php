@@ -17,13 +17,13 @@
 			</header>
 			<div>
 				<?php
-				include ("facebook.php");
+				include ("PHPFacebookPost.php");
 				$param = array("facebook_API_path" => "facebookAPIv3/facebook.php",
 				 "appId" => "YOUR_APP_ID",
 				 "secret" => "YOUR_SECRET",
 				 "page_id" => "PAGE_ID_FACEBOOK");
 				 
-				$fb = new FacebookPost($param);
+				$fb = new PHPFacebookPost($param);
 				$fb -> load_post();
 				
 				?>
